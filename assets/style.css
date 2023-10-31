@@ -282,12 +282,13 @@ article .news_resume {
   flex-wrap: wrap;
 }
 
+/*
+
 footer {
   background-color: #1e1e1e;
   display: flex;
   justify-content: center;
 }
-
 
 .footer_banner1,
 .footer_banner2,
@@ -313,9 +314,10 @@ footer {
     background-color: #2b4c99;
 }
 
-.footer_banner_options{
+.footer_area{
   height: 210px;
   display: flex;
+  background-color: #FFFFFF;
 }
 
 .footer_banner_title{
@@ -328,9 +330,154 @@ footer {
   margin-top: 20px;
   color: #FFFFFF;
 }
+*/
+
+footer {
+  background-color: #1e1e1e;
+  display: flex;
+  justify-content: center;
+}
+.footer_menu{
+  display: flex;
+}
+
+.fm_1,
+.fm_2,
+.fm_3 {
+  flex: 1;
+  color: #FFFFFF;
+  padding: 20px;
+  font-weight: bold;
+  font-size: 21px;
+}
+
+.fm_1{
+  background-color: #39aae1;
+}
 
 
 
+
+.fm_2{
+  background-color: #0079c7;
+}
+
+
+
+.fm_3{
+  background-color: #2b4c99;
+}
+
+.footer_area {
+   display: flex;
+   
+  }
+  
+  .footer_areaitem{
+    flex: 1;
+    color: #FFFFFF;
+  }
+  
+  .flexColum{
+    flex-direction: column;
+  }
+  
+  
+  
+  footer .widget_title_text {
+  color: #FFFFFF;
+
+}
+
+
+.footer_copy {
+  border-top: 1px solid #2c2c2c;
+  height: 40px;
+  line-height: 40px;
+  color: #5c5c5c;
+  font-size: 12px;
+  margin-top: 30px;
+}
+
+.footer_menu_desc {
+  font-size: 12px;
+  font-weight: lighter;
+  padding-top: 13px;
+  padding-bottom: 8px;
+}
+
+.footer_areaitem p {
+  font-size: 12px;
+  color: #6d6b6b;
+
+}
+
+.footer_widget_desc {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 12px;
+  color: #6d6b6b;
+  width: 85%;
+
+}
+
+
+
+.joao_que_mandou{
+  display: flex;
+  line-height: 20px;
+}
+
+.joao_que_mandou2 {
+  margin-top: 10px;
+  line-height: 0px;
+  display: flex;
+  align-items: end;
+  margin-left: 30px;
+}
+
+
+.footer_widget_desc_sec p{
+  margin-top: 20px;
+  font-size: 12px;
+  color: #FFFFFF;
+  width: 85%;
+
+}
+
+small {
+  font-size: 10px;
+  color: #36a9e1;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 600px) {
+
+  .banner_headline {
+    padding: 25px;
+  }
+    .banner_headline h1 {
+      font-size: 55px;
+    }
+    .banner_headline h2 {
+      font-size: 17px;
+    }
+    .banner_options {
+      height: auto;
+      flex-direction: column;
+    }
+
+    section .widget{
+      margin-top: 300px;
+    }
+}
 
 
 
