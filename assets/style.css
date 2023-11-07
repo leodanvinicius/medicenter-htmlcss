@@ -453,7 +453,20 @@ small {
 
 
 
+.menuMobile{
+  display: none;
+  width: 40px;
+  height: 40px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-right: 20px;
+}
 
+
+.mm_line{
+  height: 2px;
+  background-color: #39aae1;
+}
 
 
 
@@ -477,6 +490,59 @@ small {
     section .widget{
       margin-top: 300px;
     }
+
+    .container {
+      flex-direction: column;
+    }
+
+    #geral section,
+    #geral aside  {
+    
+      padding: 20px;
+    }
+
+    .footer_menu {
+      flex-direction: column;
+    }
+
+    .footer_area {
+      flex-direction: column;
+      padding: 20px;
+    }
+
+    .footer_copy {
+      padding-left: 20px;
+    }
+
+    header .container {
+      flex-direction: row;
+    }
+
+    nav ul {
+      flex-direction: column;
+      display: none;
+      position: absolute;
+      left: 0;
+      width: 100%;
+      background-color: #FFFFFF;
+    }
+    
+    header {
+      height: auto;
+    }
+
+    .logo {
+      padding-left: 20px;
+    }
+
+    .menuMobile {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+    }
+
+
+
 }
 
 
